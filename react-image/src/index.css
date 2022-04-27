@@ -1,0 +1,121 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+	--nav-color:#143F6B;
+	
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  background: #EEEEEE !important;
+  overflow-x: hidden;
+}
+.form_div{
+  flex-direction: column;
+}
+.form_div h2{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background: rgb(235, 225, 225);
+}
+form  input[type="text"]{
+  outline: none;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+form  input[type="file"]{
+  display: block;
+}
+form  button{
+  background: #FEB139;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+.c_img{
+  width: 100% !important;
+  height: 350px !important;
+}
+.nav-link{
+	list-style: none;
+	color: #fff;
+  transition: all 0.3s ease;
+}
+.nav-link:hover{
+  color: #FEB139;
+}
+.nav-link-prod{
+  text-decoration: none;
+  list-style: none;
+	color: #000;
+}
+.nav-link-prod:hover{
+  color: rgb(44, 40, 40);
+}
+.navbar{
+	background: var(--nav-color);
+}
+
+.prodname{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+
+.card{
+
+}
+.prodimg_details{
+  width: 100% !important;
+  height: 350px !important;
+}
+.prodimg{
+  width: 100% !important;
+  height: 200px !important;
+}
+.prodrating{
+   font-size: 16px;
+   cursor: pointer;
+   text-align: left;
+}
+.prodprice{
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+}
+.proddesc{
+  font-size: 14px;
+  opacity: 0.5;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+}
